@@ -140,3 +140,18 @@ footer {
   text-align: center;
   color: #666;
 }
+
+/* Banner in About Section */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.banner {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
